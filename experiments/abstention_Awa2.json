@@ -1,0 +1,29 @@
+[
+  {
+    "tag": "rashomon",
+    "exp": "Lora",
+    "log_dir": "EnsembleLora/log_Awa2_1_10m_000000000000",
+    "num_models": 10,
+    "encoder": "vit",
+    "bottleneck_dim": 32,
+    "share_mask": "000000000000",
+    "lora_r": 8,
+    "lora_alpha": 16
+  },
+  {
+    "tag": "random",
+    "exp": "random",
+    "log_dir": "Ensemblerandom/log_Awa2_1_10m_000000000000",
+    "num_models": 10,
+    "encoder": "vit",
+    "bottleneck_dim": 32
+  },
+  {
+    "tag": "original",
+    "exp": "original",
+    "log_dir": "Ensemblerandom-hard/log_Awa2_lambda1_alpha0.0_1m_000000000000_lr0.0001_wd0.0_bottleneck32_LORA_R8",
+    "num_models": 1,
+    "encoder": "vit",
+    "bottleneck_dim": 32
+  }
+]

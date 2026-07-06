@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers
+peft
+safetensors
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+pillow
+tqdm
+requests
+shap
+wandb

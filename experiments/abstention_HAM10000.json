@@ -1,0 +1,29 @@
+[
+  {
+    "tag": "rashomon",
+    "exp": "Lora",
+    "log_dir": "EnsembleLora/log_HAM10000_lambda1_alpha0.25_10m_000000000000_lr0.0003_wd0.0_bottleneck32_LORA_R16",
+    "num_models": 10,
+    "encoder": "medical_vit",
+    "bottleneck_dim": 32,
+    "share_mask": "000000000000",
+    "lora_r": 16,
+    "lora_alpha": 32
+  },
+  {
+    "tag": "random",
+    "exp": "random",
+    "log_dir": "Ensemblerandom/log_HAM10000_lambda1_alpha0.0_10m_000000000000_lr0.0001_wd0.0004_bottleneck32",
+    "num_models": 10,
+    "encoder": "medical_vit",
+    "bottleneck_dim": 32
+  },
+  {
+    "tag": "original",
+    "exp": "original",
+    "log_dir": "Ensemblerandom-hard/log_HAM10000_lambda1_alpha0.0_1m_000000000000_lr0.0003_wd0.0_bottleneck32_LORA_R8",
+    "num_models": 1,
+    "encoder": "medical_vit",
+    "bottleneck_dim": 32
+  }
+]

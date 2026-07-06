@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Data and generated splits
+data/
+datasets/raw/
+*.pkl
+*.pt
+*.npz
+
+# Training outputs
+logs/
+wandb/
+Ensemble*/
+abstention_results*/
+*_results*/
+checkpoint*.pt
+checkpoint*.pth
+best_model.pth
+epoch*_model.pth
+
+# Generated reports
+*.csv
+*.log
+slurm-*.out
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

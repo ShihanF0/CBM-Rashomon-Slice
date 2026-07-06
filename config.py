@@ -1,0 +1,26 @@
+import os
+
+# General
+# Set RASHOMON_CBM_BASE_DIR in your shell, or edit this fallback directly.
+BASE_DIR = os.environ.get("RASHOMON_CBM_BASE_DIR", "")
+MIN_LR = 0.000001
+LR_DECAY_SIZE = 0.9
+
+# Dataset-specific configurations
+CUB_N_ATTRIBUTES = 312
+CUB_N_CLASSES = 200
+
+AWA2_N_ATTRIBUTES = 85
+AWA2_N_CLASSES = 50
+
+CIFAR10_N_ATTRIBUTES = 143
+CIFAR10_N_CLASSES = 10
+
+CELEBA_N_ATTRIBUTES = 6
+CELEBA_N_CLASSES = 256
+
+HAM10000_N_ATTRIBUTES = 139
+HAM10000_N_CLASSES = 7
+WANDB_PROJECT = os.environ.get("WANDB_PROJECT")
+WANDB_ENTITY = os.environ.get("WANDB_ENTITY")
+WANDB_ENABLE = False
