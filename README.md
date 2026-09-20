@@ -1,6 +1,6 @@
-# Rashomon Concept Bottleneck Models
+# Parameter-Efficient Construction of the Rashomon Slice for Concept Bottleneck Models
 
-This repository contains the code for [**Exploring the Rashomon Set for Concept-Based Models**](https://arxiv.org/abs/2511.19636). It introduces a method for efficiently exploring the Rashomon set of CBMs and returns a set of accurate CBMs with different reasoning rationales.
+This repository contains the code for [**Parameter-Efficient Construction of the Rashomon Slice for Concept Bottleneck Models**](https://arxiv.org/abs/2511.19636). It introduces a method for efficiently exploring the Rashomon set of CBMs and returns a set of accurate CBMs with different reasoning rationales.
 
 <p align="center">
   <img src="qual_anal_Awa2_weights.png" width="850" alt="Qualitative analysis of concept reliance across AwA2 Rashomon CBMs">
