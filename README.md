@@ -249,10 +249,14 @@ Edit the grid values in the script before launching large sweeps.
 If you use this code, please cite the corresponding paper:
 
 ```bibtex
-@article{feng2025many,
-  title={Many Ways to be Right: Rashomon Sets for Concept-Based Neural Networks},
-  author={Feng, Shihan and Zhang, Cheng and Xi, Michael and Hsu, Ethan and Semenova, Lesia and Zhong, Chudi},
-  journal={arXiv preprint arXiv:2511.19636},
-  year={2025}
+@article{
+  feng2026parameterefficient,
+  title={Parameter-Efficient Construction of the Rashomon Slice for Concept Bottleneck Models},
+  author={Shihan Feng and CHENG ZHANG and Michael Xi and Ethan Hsu and Lesia Semenova and Chudi Zhong},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2026},
+  url={https://openreview.net/forum?id=E8oetPdxH6},
+  note={}
 }
 ```
